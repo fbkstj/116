@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "評分系統本機",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "test/devserver.mjs",
+        "8790"
+      ],
+      "port": 8790
+    },
+    {
+      "name": "評分系統模擬",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "test/devserver.mjs",
+        "8792",
+        "--sim"
+      ],
+      "port": 8792
+    }
+  ]
+}

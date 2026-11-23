@@ -1,0 +1,41 @@
+# 這個 repo 是公開的。下面這些絕對不能提交。
+
+# 影片原檔（學生作品，只留在主辦方電腦）
+影片原檔/
+
+# 帳號名單、密碼發放表、真實資料
+private/
+
+# 校內文件（原規格書）
+*.pdf
+
+# 金鑰與環境變數（只提交 .env.example）
+.env
+.env.*
+!.env.example
+
+# Supabase CLI 本機暫存
+supabase/.temp/
+supabase/.branches/
+
+# 工具產物
+node_modules/
+test/out/
+__pycache__/
+*.pyc
+
+# Claude 與系統檔
+.claude/settings.local.json
+Claude outputs/
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# AI 評分草稿與報告（評分結果公布前不可公開）
+八組專題評分結果.md
+八組專題評分結果.csv
+AI評分結果/
+
+# 外部 AI 的評分結果檔（公布前不可公開）
+*評分結果.json
+*_全部評分結果.json
